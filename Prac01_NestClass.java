@@ -43,5 +43,6 @@ class MainC {
         Outer01.inner_N in01 = out1.new inner_N();
         int Ary_In1[] = in01.exp_n();
         for (int i:Ary_In1) {System.out.println("inner_N exp_n "+ i);}
+        System.out.print(Clock.systemDefaultZone().instant());
     }
 }
